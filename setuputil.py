@@ -19,9 +19,7 @@ def find_version(fnam, version="VERSION"):
 
 
 def find_projectname():
-    cwd = os.getcwd()
-    name = os.path.basename(cwd)
-    return name
+    return "pytkfaicons"
 
 
 def load_requirements():
