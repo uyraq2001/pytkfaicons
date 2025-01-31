@@ -1,0 +1,24 @@
+{
+  "sources": {
+    "metadata": {
+      "deps": [
+        "Pillow"
+      ],
+      "srctype": "metadata"
+    },
+    "pep517": {
+      "srctype": "pep517"
+    },
+    "pep518": {
+      "deps": [
+        "attrs",
+        "black",
+        "flake8",
+        "setuptools>=46.0",
+        "twine",
+        "wheel"
+      ],
+      "srctype": "pep518"
+    }
+  }
+}
